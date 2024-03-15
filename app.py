@@ -3,6 +3,9 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
+
+nltk.download('stopwords')
+
 #nltk.download()
 #nltk.data.path.append("\AppData\Roaming\nltk_data")
 from nltk.stem.porter import PorterStemmer
